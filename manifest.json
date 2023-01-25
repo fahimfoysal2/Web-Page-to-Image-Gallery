@@ -11,10 +11,14 @@
             "128": "assets/images/icons/icon-128.png"
         }
     },
+    "permissions": ["scripting", "activeTab", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
     "icons": {
         "16": "assets/images/icons/icon-16.png",
         "32": "assets/images/icons/icon-32.png",
         "48": "assets/images/icons/icon-48.png",
         "128": "assets/images/icons/icon-128.png"
-}
+    }
 }
