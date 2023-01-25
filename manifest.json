@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Web Image Gallery - Manga Reader",
+    "version": "1.0",
+    "description": "Displays all the images of the current page in a gallery style",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
