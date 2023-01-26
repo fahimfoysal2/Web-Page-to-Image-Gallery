@@ -24,8 +24,18 @@ if (document.readyState === 'complete') {
     }
 
     const dynamicGallery = lightGallery(gallery, {
+        plugins: [lgZoom],
         dynamic: true,
         dynamicEl: galleryElements,
+        closable: false,
+        download: true,
+        thumbnail: true,
+        showThumbByDefault: true,
+        zoom: true,
+        fullScreen: true,
+        swipeThreshold: 50,
+        mode: 'lg-fade',
+        cssEasing: 'ease-in-out(0.420, 0.000, 0.580, 1.000)',
     });
 
     dynamicGallery.openGallery();
