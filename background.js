@@ -25,7 +25,7 @@ chrome.action.onClicked.addListener(async (tab) => {
         // load content script
         await chrome.scripting.executeScript({
             target: { tabId: tab.id },
-            files: ["assets/gallery/lightgallery.min.js", "assets/gallery/lg-zoom.min.js", "kormi.js"],
+            files: ["assets/gallery/lightgallery.min.js", "assets/gallery/lg-zoom.min.js", "assets/gallery/lg-thumbnail.min.js", "kormi.js"],
         });
     } else if (nextState === "OFF") {
         // Remove the CSS file when the user turns the extension off

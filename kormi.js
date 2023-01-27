@@ -24,7 +24,7 @@ if (document.readyState === 'complete') {
     }
 
     const dynamicGallery = lightGallery(gallery, {
-        plugins: [lgZoom],
+        plugins: [lgZoom, lgThumbnail],
         dynamic: true,
         dynamicEl: galleryElements,
         closable: false,
