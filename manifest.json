@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Web Image Gallery - Manga Reader",
+    "name": "Webpage to Image Gallery - Manga Reader",
     "version": "1.0",
-    "description": "Displays all the images of the current page in a gallery style",
+    "description": "Displays all the images of the current page in a gallery style for clutter free image viewing experience.",
     "action": {
         "default_icon": {
             "16": "assets/images/icons/icon-16.png",
