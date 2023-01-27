@@ -1,4 +1,5 @@
-# Better Image Viewer - Chrome Extension
+# Web Image Gallery - Manga Reader
+## Better Image Viewer - Chrome Extension
 
 This is a Chrome extension that allows you to view all the images from a web page in a better way.
 
@@ -8,10 +9,11 @@ Wanted to read Vinland Saga II from a website, but I was facing some issues, lik
 So I made this extension to view the images in a better way.
 
 ### Features
-- Lightbox style image viewer
-- Zoom in/out
-- Keyboard shortcuts
-- Smooth Image navigation
+- Lightbox style image viewer 
+- Zoom in/out (double click)
+- Keyboard shortcuts (`CTRL + M`, Left Arrow, Right Arrow)
+- Thumbnail view
+- Smooth Image navigation 
 
 ### Installation
 - Clone the repo
@@ -22,10 +24,11 @@ So I made this extension to view the images in a better way.
 ### Usage
 - Open any web page with images
 - Wait for the page to load all the images
-- Click on the extension icon
+- Click on the extension icon or `CTRL + M` to open the image viewer
 - To exit gallery mode, click on the extension icon again
 
 ### Keyboard Shortcuts
+- `CTRL + M` - Open Image Viewer
 - `Left Arrow` - Previous Image
 - `Right Arrow` - Next Image
 
