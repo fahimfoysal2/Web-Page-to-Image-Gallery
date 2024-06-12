@@ -1,0 +1,19 @@
+.lg-toolbar{
+    z-index: 99999;
+}
+
+.lg-next::before {
+    content: "⮕";
+}
+
+.lg-prev::after {
+    content: "⬅";
+}
+
+.lg-toolbar .lg-download::after {
+    content: "⬇";
+}
+
+.lg-icon.lg-zoom-in::after, .lg-icon.lg-zoom-out::after {
+    content: "🔍";
+}

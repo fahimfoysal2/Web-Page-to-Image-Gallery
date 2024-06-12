@@ -18,7 +18,7 @@ chrome.action.onClicked.addListener(async (tab) => {
     if (nextState === "ON") {
         // Insert the CSS file when the user turns the extension on
         await chrome.scripting.insertCSS({
-            files: ["assets/gallery/lightgallery-bundle.min.css"],
+            files: ["assets/gallery/lightgallery-bundle.min.css", "assets/style/wptig.css"],
             target: { tabId: tab.id },
         });
 
@@ -30,7 +30,7 @@ chrome.action.onClicked.addListener(async (tab) => {
     } else if (nextState === "OFF") {
         // Remove the CSS file when the user turns the extension off
         await chrome.scripting.removeCSS({
-            files: ["assets/gallery/lightgallery-bundle.min.css"],
+            files: ["assets/gallery/lightgallery-bundle.min.css", "assets/style/wptig.css"],
             target: { tabId: tab.id },
         });
 
